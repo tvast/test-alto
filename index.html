@@ -9,17 +9,40 @@
   </head>
   <body>
 
-    <button id="clickme">try</button>
-
+<nav>
+  <ul>
+    <li><a id="option1">option1</a></li>
+    <li><a id="option2">option2</a></li>
+    <li><a id="option3">option3</a></li>
+    <li><a id="option4">option4</a></li>
+  </ul>
+</nav>
     <div id="progressBar2" class=""></div>
+    <button id="clickme">Launch progress bar</button>
  
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script type="text/javascript">
-  
+//trigger progress bar
 $( "#clickme" ).click(function() {
 $( "#progressBar2" ).last().addClass( "loading-line" );
 });
 
+//add event to options
+
+$('#option1').bind('click', function() {
+  alert('User clicked on option1');
+});
+$('#option2').bind('click', function() {
+  alert('User clicked on option2');
+});
+$('#option3').bind('click', function() {
+  alert('User clicked on option3');
+});
+$('#option4').bind('click', function() {
+  alert('User clicked on option4');
+});
+
 </script>
+
   </body>
 </html>

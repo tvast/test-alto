@@ -117,3 +117,41 @@
   }
 }
 
+
+nav {
+    width: 100%;
+    /*display: flex;*/
+  
+}
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    width: calc(100% / 4);
+    box-sizing: border-box;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    padding: 10px 0;
+}
+
+nav ul li a:hover {
+    background-color: grey;
+    color:white;
+}
