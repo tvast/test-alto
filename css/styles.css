@@ -1,0 +1,119 @@
+#progressBar {
+	background-color: yellow;
+}
+
+.loading-line {
+  height: 0.3em;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -moz-animation: loading 5s linear;
+  -webkit-animation: loading 5s linear;
+  animation: loading 5s linear;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+@-moz-keyframes loading {
+  0% {
+    background: #f07719;
+    width: 0%;
+  }
+  30% {
+    background: #f07719;
+    width: 15%;
+  }
+  55% {
+    background: #f07719;
+    width: 38%;
+  }
+  59% {
+    background: #f07719;
+    width: 45%;
+  }
+  66% {
+    background: #f07719;
+    width: 52%;
+  }
+  75% {
+    background: #f07719;
+    width: 57%;
+  }
+  88% {
+    background: #f07719;
+    width: 60%;
+  }
+  100% {
+    background: #f07719;
+  }
+}
+@-webkit-keyframes loading {
+  0% {
+    background: #f07719;
+    width: 0%;
+  }
+  30% {
+    background: #f07719;
+    width: 15%;
+  }
+  55% {
+    background: #f07719;
+    width: 38%;
+  }
+  59% {
+    background: #f07719;
+    width: 45%;
+  }
+  66% {
+    background: #f07719;
+    width: 52%;
+  }
+  75% {
+    background: #f07719;
+    width: 57%;
+  }
+  88% {
+    background: #f07719;
+    width: 60%;
+  }
+  100% {
+    background: #f07719;
+  }
+}
+@keyframes loading {
+  0% {
+    background: #f07719;
+    width: 0%;
+  }
+  30% {
+    background: #f07719;
+    width: 15%;
+  }
+  55% {
+    background: #f07719;
+    width: 38%;
+  }
+  59% {
+    background: #f07719;
+    width: 45%;
+  }
+  66% {
+    background: #f07719;
+    width: 52%;
+  }
+  75% {
+    background: #f07719;
+    width: 57%;
+  }
+  88% {
+    background: #f07719;
+    width: 60%;
+  }
+  100% {
+    background: #f07719;
+  }
+}
+
